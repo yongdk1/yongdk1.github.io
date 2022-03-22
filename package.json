@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "sync": "browser-sync start --server \"public\" --files [\"* .html\", \"styles/* .css\", \"scripts/* .js\"]",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/yongdk1/yongdk1.github.io#readme",
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.9"
   }
 }
