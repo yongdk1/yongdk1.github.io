@@ -1,12 +1,35 @@
-#icons i {
-    font-size: 40px;
-    margin-left: 10px;
+h2 {
+    font-weight: 600;
 }
 
-#icons a {
+.icons i {
+    font-size: 42px;
+    margin: 0px 5px;
+    color: gray;
+}
+.icons a {
     text-decoration: none;
 }
 
+.langicon {
+    display: inline-block;
+    margin: 10px;
+}
+.langicon :hover {
+    color: forestgreen;
+}
+.langicon div {
+    text-align: center;
+}
+.langicon span {
+    font-size: 9px;
+}
+
+
 #portfolio {
     margin-top: 1em;
+}
+
+#portfolio .row {
+    margin-bottom: 1em;
 }

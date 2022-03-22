@@ -17,6 +17,8 @@
 	<!--Bootstrap-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="./styles/index.css">
+
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body>
@@ -25,13 +27,12 @@
 			<div class="col-lg-6 offset-lg-1">
 				<div class="row">
 					<h1 style="font-weight: 600">Hey there! I'm Duan Kai</h1>
-					<h3>An aspiring full-stack software developer passionate about 
-						tinkering. <br>
-						Experienced in building web applications in Javascript [NodeJS, ReactJS] or ASP.NET,
-						console applications with Java, <br> and ETL processes with Java.
+					<h3>An aspiring software developer with a foundation in technology management. <br>
+						Experience in building web applications in JavaScript [NodeJS, ReactJS] or ASP.NET,
+						console applications with Java, and<br> ETL processes with Java.
 					</h3>
 				</div>
-				<div id="icons" class="row">
+				<div class="row icons">
 					<div>
 						<!-- <button type="button" class="btn btn-outline-success">Resume</button> -->
 						<a href="https://www.linkedin.com/in/duan-kai-yong/">
@@ -43,29 +44,124 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 align-middle">
-				<img src="./assets/undraw_working_from_anywhere_re_9obt.svg" style="width:100%">
+			<div class="col-lg-4 align-middle d-none d-lg-block">
+				<img src="./assets/undraw_working_from_anywhere_re_9obt.svg" class="img-fluid">
 			</div>
 		</div>
 		
-		<div id="portfolio" class="row justify-content-end">
-			<div class="col-lg-6 offset-lg-1">
+		<div id="languages" class="row" style="margin-top: 1em">
+			<!-- <div class="offset-lg-1 col-lg-4 align-middle d-none d-lg-block">
+				<img src="./assets/undraw_dev_productivity_re_fylf.svg" class="img-fluid">
+			</div> -->
+			<div class="offset-lg-1 col-lg-7">
+				<h2>My languages</h2>
 				<div class="row">
+					<div class="icons">
+						<div class="langicon">
+							<i class="fa-brands fa-html5"></i>
+							<div><span>HTML5</span></div>
+						</div>
+						<div class="langicon">
+							<i class="fa-brands fa-css3-alt"></i>
+							<div><span>CSS3</span></div>
+						</div>
+						<div class="langicon">
+							<i class="fa-brands fa-bootstrap"></i>
+							<div><span>Bootstrap</span></div>
+						</div>
+						<div class="langicon">
+							<i class="fa-brands fa-js"></i>
+							<div><span>JavaScript</span></div>
+						</div>
+						<div class="langicon">
+							<i class="fa-brands fa-node-js"></i>
+							<div><span>NodeJS</span></div>
+						</div>
+						<div class="langicon">
+							<i class="fa-brands fa-npm"></i>
+							<div><span>NPM</span></div>
+						</div>
+						<div class="langicon">
+							<i class="fa-brands fa-react"></i>
+							<div><span>ReactJS</span></div>
+						</div>
+						<div class="langicon">
+							<i class="fa-brands fa-python"></i>
+							<div><span>Python</span></div>
+						</div>
+						<div class="langicon">
+							<i class="fa-brands fa-java"></i>
+							<div><span>Java</span></div>
+						</div>
+						<div class="langicon">
+							<i class="fa-solid fa-database"></i>
+							<div><span>MySQL</span></div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="row">
+					<ul class="list-unstyled">
+						<li>Aiming to be a full-stack developer</li>
+					</ul>
+				</div> -->
+			</div>
+		</div>
+
+		<div id="portfolio" class="row" style="margin-top: 1em">
+			<div class="offset-lg-1 d-none d-lg-block col-lg-3 align-self-center">
+				<lottie-player src="https://assets5.lottiefiles.com/packages/lf20_xu3jsjrn.json" background="transparent"  speed="1"  style="width: 100%;" loop autoplay></lottie-player>
+			</div>
+			<div class="col-lg-7">
+				<div class="row" style="margin-bottom: 0px">
 					<div class="col">
-						<h2 style="font-weight: 600;">My works</h2>
+						<h2>My work</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col">
 						<h4>
-							GreeJS - A Javascript Library for generating Family Trees
+							GreeJS - a JavaScript library for generating family trees
 						</h4>
-						<p>
-	
-						</p>
-						<a href="https://powerful-crag-47059.herokuapp.com"><i class="fa-solid fa-link"></i> See more</a>	
+						<span>
+							GreeJS makes generating a family tree faster and more efficient, letting developers create them via passing a Javascript object as opposed to as developers manually generating the diagram on word or image processors.
+						</span>
+						<a href="https://powerful-crag-47059.herokuapp.com"><i class="fa-solid fa-link"></i> See what I've done so far</a>	
 					</div>
 				</div>
+				<div class="row">
+					<div class="col">
+						<h4>
+							CookingHS - a React web-application for sharing recipes
+						</h4>
+						<span>
+							A full-stack social network cum recipe blog. Users can create or fork recipes as well as 
+							leave ratings and comments. Let's get cooking!
+						</span>
+						<i class="fa-solid fa-link-slash"></i> <span style="text-decoration:underline">Under Construction</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<h4>
+							Bricks - an ASP.NET web-application for housing advice
+						</h4>
+						<span>
+							A full-stack housing search engine and financial calculator. 
+							Users search for their dream apartment to find the historical prices of similar residences, 
+							and can enter personal financial details to calculate exactly what they can afford.
+						</span>
+						<a href="https://github.com/yongdk1/Bricks"><i class="fa-solid fa-link"></i> See more</a>	
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="row" style="margin-top: 10vh; min-height: 10vh">
+			<div class="offset-lg-1">
+				<footer>
+					Contact Me: <a href="mailto:yongdk1@gmail.com">yongdk1@gmail.com</a>
+				</footer>
 			</div>
 		</div>
 	</div>
